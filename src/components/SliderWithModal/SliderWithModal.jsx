@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-import { ModalImg } from "../ModalImg/ModalImg";
-import { Slider } from "../Slider/Slider";
+import { ModalImg } from "../ModalImg";
+import { Slider } from "../Slider";
 
 const SliderWithModal = () => {
   const [modalIsActive, setModalIsActive] = useState(false);
