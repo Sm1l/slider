@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/slider/static/css/main.a69ec94e.css",
+    "main.js": "/slider/static/js/main.d46c5404.js",
+    "static/media/Alice.webp": "/slider/static/media/Alice.6ac286089959d305203f.webp",
+    "static/media/Alice_dark.webp": "/slider/static/media/Alice_dark.6346476cbec58b11828e.webp",
+    "index.html": "/slider/index.html",
+    "main.a69ec94e.css.map": "/slider/static/css/main.a69ec94e.css.map",
+    "main.d46c5404.js.map": "/slider/static/js/main.d46c5404.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a69ec94e.css",
+    "static/js/main.d46c5404.js"
+  ]
+}
