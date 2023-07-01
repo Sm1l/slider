@@ -1,7 +1,7 @@
 import React from "react";
-import { Slider } from "./components/Slider";
-import { ModalImg } from "./components/ModalImg/ModalImg";
+
 import { SliderWithModal } from "./components/SliderWithModal/SliderWithModal";
+import { MainPage } from "./pages/MainPage/MainPage";
 
 import "./app.scss";
 import "./custom.scss";
@@ -9,9 +9,8 @@ import "./custom.scss";
 const App = () => {
   return (
     <div className="app">
-      {/* <Slider />
-      <ModalImg /> */}
-      <SliderWithModal />
+      {/* <SliderWithModal /> */}
+      <MainPage />
     </div>
   );
 };

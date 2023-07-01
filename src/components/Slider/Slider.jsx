@@ -1,16 +1,13 @@
 import React, { useEffect, useRef } from "react";
 import Swiper from "swiper";
-import { register } from "swiper/element/bundle";
+import { imgList } from "./img/images";
+import "swiper/element/bundle";
 
 import "swiper/swiper-bundle.min.css";
 import "./slider.scss";
 import "./swiper.scss";
 
-import imageLight from "./img/Alice.webp";
-import imageDark from "./img/Alice_dark.webp";
-
 const Slider = ({ modalIsActive, setModalIsActive, setSelectedImg }) => {
-  const imgList = [imageLight, imageDark, imageLight, imageDark, imageLight, imageDark];
   const swiperRef = useRef(null);
   const paginationRef = useRef(null);
   const nextButtonRef = useRef(null);
