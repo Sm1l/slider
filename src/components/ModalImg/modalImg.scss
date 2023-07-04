@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1;
+    z-index: 100;
   }
 
   &__container {
@@ -19,7 +19,6 @@
     width: 95%;
     border-radius: 30px;
     overflow: hidden;
-    //  box-shadow: var(--shadow);
 
     @media (min-width: 800px) {
       padding-bottom: 40%;
